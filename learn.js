@@ -6,6 +6,8 @@ function fullName(name, surname){
 
 console.log(fullName('Max', ' Mustermann'));
 
+
+//Variante No.2
 function fullName1(name, surname) {
     let full = name + '' + surname;
     console.log(full);
@@ -14,3 +16,9 @@ function fullName1(name, surname) {
 
 fullName1('Max', ' Mustermann');
 
+//Aufgabe 02
+function capitalizeLetters(fruit){
+    return fruit.toUpperCase();
+}
+
+console.log(capitalizeLetters('bAnanE'));
