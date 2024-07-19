@@ -26,7 +26,7 @@ console.log(capitalizeLetters('bAnanE'));
 
 //Aufgabe 04
 function formatToCurrency (decimal) {
-    return decimal.toFixed(2).replace('.' , ',') + ' €';
+    return decimal.toFixed(2).replace('.' , ',') + ' €'; // '.',',' - the period is replaced by a “comma”
 }
 
 console.log(formatToCurrency(0.5));
