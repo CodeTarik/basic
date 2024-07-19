@@ -22,3 +22,11 @@ function capitalizeLetters(fruit){
 }
 
 console.log(capitalizeLetters('bAnanE'));
+
+
+//Aufgabe 04
+function formatToCurrency (decimal) {
+    return decimal.toFixed(2).replace('.' , ',') + ' €';
+}
+
+console.log(formatToCurrency(0.5));
