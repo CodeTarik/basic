@@ -29,3 +29,10 @@ let myCombination = 5 + "10.2"; //tries to turn the string into a number
 
 console.log(myCombination); //combining a string and a number
 
+
+
+//length
+let myTestString = "hello  "
+
+myTestString = myTestString.trim();
+console.log(myTestString.length);
