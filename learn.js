@@ -30,3 +30,22 @@ function formatToCurrency (decimal) {
 }
 
 console.log(formatToCurrency(0.5));
+
+
+
+//Aufgabe 03
+
+
+console.log(countCharacters('banana'));
+function countCharacters(number){
+    return number.length;
+}    
+
+
+
+function countCharacters(number){
+    let symbol = number.length;
+    console.log(symbol);
+    return symbol;
+}
+
