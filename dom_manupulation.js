@@ -17,3 +17,8 @@ function myFunction(){
 document.getElementById("myH1").setAttribute("class", "democlass");
 
 }
+
+
+function toggleDNone(){
+    document.getElementById(id).classList.toggle('d-none');
+}
