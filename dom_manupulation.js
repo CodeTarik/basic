@@ -23,3 +23,8 @@ function toggleDNone(id){
     document.getElementById(id).classList.toggle('d-none');
 }
 
+
+function myCars(){
+    var x = document.getElementById("mySelect").value;
+    document.getElementById("brands").innerHTML = "Du hast " + x + " ausgewählt";
+}
