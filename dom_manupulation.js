@@ -28,3 +28,9 @@ function myCars(){
     var x = document.getElementById("mySelect").value;
     document.getElementById("brands").innerHTML = "Du hast " + x + " ausgewählt";
 }
+
+
+function myLogout() {
+    var inputValue = document.getElementById('buzz').value;
+    console.log("Input Value: " + inputValue);
+}
