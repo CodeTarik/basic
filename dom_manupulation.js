@@ -13,4 +13,6 @@ document.getElementById('test_div').classList.add('green_bg');
 document.getElementById('test_div').classList.remove('green_bg');
 document.getElementById('test_div').classList.toggle('grenn_bg');
 
-document.getElementById('test_input').value = 123123;
+//document.getElementById('test_input').value = 123123;
+
+document.getElementById('test_input').setAttribute('value', 123);
